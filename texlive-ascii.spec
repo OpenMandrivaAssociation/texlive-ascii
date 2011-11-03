@@ -1,3 +1,9 @@
+# revision 15878
+# category Package
+# catalog-ctan /fonts/ascii
+# catalog-date 2008-12-25 13:14:37 +0100
+# catalog-license lppl
+# catalog-version 2.0
 Name:		texlive-ascii
 Version:	2.0
 Release:	1
@@ -47,6 +53,7 @@ Graphics. A Type 1 font of the glyphs is included.
 #- source
 %doc %{_texmfdistdir}/source/latex/ascii/ascii.dtx
 %doc %{_texmfdistdir}/source/latex/ascii/ascii.ins
+%doc %{_tlpkgobjdir}/*.tlpobj
 
 #-----------------------------------------------------------------------
 %prep
@@ -57,3 +64,5 @@ Graphics. A Type 1 font of the glyphs is included.
 %install
 mkdir -p %{buildroot}%{_texmfdistdir}
 cp -fpar fonts tex doc source %{buildroot}%{_texmfdistdir}
+mkdir -p %{buildroot}%{_tlpkgobjdir}
+cp -fpa tlpkg/tlpobj/*.tlpobj %{buildroot}%{_tlpkgobjdir}
