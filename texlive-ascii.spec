@@ -6,7 +6,7 @@
 # catalog-version 2.0
 Name:		texlive-ascii
 Version:	2.0
-Release:	1
+Release:	2
 Summary:	Support for IBM "standard ASCII" font
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/fonts/ascii
