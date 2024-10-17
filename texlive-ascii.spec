@@ -9,7 +9,7 @@ Version:	2.0
 Release:	12
 Summary:	Support for IBM "standard ASCII" font
 Group:		Publishing
-URL:		http://www.ctan.org/tex-archive/fonts/ascii
+URL:		https://www.ctan.org/tex-archive/fonts/ascii
 License:	LPPL
 Source0:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/ascii.tar.xz
 Source1:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/ascii.doc.tar.xz
